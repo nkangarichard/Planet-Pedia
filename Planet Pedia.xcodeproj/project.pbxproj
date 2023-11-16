@@ -11,6 +11,10 @@
 		2C9367762B055B3E0086EE4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9367752B055B3E0086EE4C /* ContentView.swift */; };
 		2C9367782B055B3F0086EE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9367772B055B3F0086EE4C /* Assets.xcassets */; };
 		2C93677B2B055B3F0086EE4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C93677A2B055B3F0086EE4C /* Preview Assets.xcassets */; };
+		2C9367842B0571160086EE4C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9367822B0571160086EE4C /* Poppins-Medium.ttf */; };
+		2C9367852B0571160086EE4C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9367832B0571160086EE4C /* Poppins-Bold.ttf */; };
+		2C9367882B0573A40086EE4C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9367872B0573A40086EE4C /* Poppins-SemiBold.ttf */; };
+		2C93678A2B05CDC40086EE4C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9367892B05CDC40086EE4C /* Poppins-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		2C9367752B055B3E0086EE4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C9367772B055B3F0086EE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C93677A2B055B3F0086EE4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C9367822B0571160086EE4C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		2C9367832B0571160086EE4C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2C9367862B0571C70086EE4C /* Planet-Pedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Planet-Pedia-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C9367872B0573A40086EE4C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		2C9367892B05CDC40086EE4C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		2C9367672B055B3E0086EE4C = {
 			isa = PBXGroup;
 			children = (
+				2C9367812B056F7A0086EE4C /* Fonts */,
 				2C9367722B055B3E0086EE4C /* Planet Pedia */,
 				2C9367712B055B3E0086EE4C /* Products */,
 			);
@@ -51,6 +61,7 @@
 		2C9367722B055B3E0086EE4C /* Planet Pedia */ = {
 			isa = PBXGroup;
 			children = (
+				2C9367862B0571C70086EE4C /* Planet-Pedia-Info.plist */,
 				2C9367732B055B3E0086EE4C /* Planet_PediaApp.swift */,
 				2C9367752B055B3E0086EE4C /* ContentView.swift */,
 				2C9367772B055B3F0086EE4C /* Assets.xcassets */,
@@ -65,6 +76,17 @@
 				2C93677A2B055B3F0086EE4C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C9367812B056F7A0086EE4C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C9367892B05CDC40086EE4C /* Poppins-Light.ttf */,
+				2C9367872B0573A40086EE4C /* Poppins-SemiBold.ttf */,
+				2C9367832B0571160086EE4C /* Poppins-Bold.ttf */,
+				2C9367822B0571160086EE4C /* Poppins-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9367882B0573A40086EE4C /* Poppins-SemiBold.ttf in Resources */,
+				2C93678A2B05CDC40086EE4C /* Poppins-Light.ttf in Resources */,
+				2C9367842B0571160086EE4C /* Poppins-Medium.ttf in Resources */,
 				2C93677B2B055B3F0086EE4C /* Preview Assets.xcassets in Resources */,
 				2C9367782B055B3F0086EE4C /* Assets.xcassets in Resources */,
+				2C9367852B0571160086EE4C /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = 4PJ639HKZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Planet-Pedia-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +331,7 @@
 				DEVELOPMENT_TEAM = 4PJ639HKZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Planet-Pedia-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
