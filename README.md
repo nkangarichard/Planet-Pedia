@@ -12,7 +12,7 @@ Planet Pedia is an educational iOS app designed to provide detailed information 
 - [Project Status](#project-status)
 - [Description](#description)
 - [Features](#features)
-- [Screenshots](#screenshots)
+- [Video Preview](#video-preview)
 - [Usage](#usage)
 
 ## Technologies
@@ -43,9 +43,10 @@ Planet Pedia is a dynamic and visually appealing app that allows users to delve 
 - Smooth Transitions and Animations
 - Custom Fonts for Enhanced User Experience
 
-## Screenshots
+## Video Preview
 
-[Coming Soon](https://github.com/richardnkanga/Planet-Pedia/assets/75099089/d054a9b1-80d1-4d18-8ec1-010a96798c75)
+[Planet Pedia App Video Preview](
+https://github.com/richardnkanga/Trip-Statistics-App/assets/75099089/5943bda3-c7a4-4431-a2c2-59b640a26b9e)
 
 
 
