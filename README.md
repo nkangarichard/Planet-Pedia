@@ -4,6 +4,17 @@
 
 Planet Pedia is an educational iOS app designed to provide detailed information about the planets in our solar system. Users can explore various celestial bodies, including their positions, distances from the Sun, and other fascinating details.
 
+# Table of Contents
+
+- [Technologies](#technologies)
+- [Platform](#platform)
+- [Project Type](#project-type)
+- [Project Status](#project-status)
+- [Description](#description)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Usage](#usage)
+
 ## Technologies
 
 - SwiftUI
